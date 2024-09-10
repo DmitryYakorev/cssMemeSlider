@@ -39,3 +39,29 @@
   height: 70vh;
   object-fit: contain;
 }
+
+.lower-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem auto;
+}
+
+.text-wrapper {
+  overflow: hidden;
+  width: 60%;
+}
+
+.text-block {
+  display: grid;
+  grid-template-columns: repeat(4, 100%);
+  transition: .3s;
+}
+
+.text {
+  font-family: Tahoma, sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  letter-spacing: .1rem;
+}
